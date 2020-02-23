@@ -44,6 +44,18 @@ public class Numero_complexo {
 		imaginario= parteImaginaria - outro.parteImaginaria;
 		return new Numero_complexo(real,imaginario);			
 	}
+	public Numero_complexo multiplicacao(Numero_complexo aux){
+		float real,imaginario;
+		real=parteReal *aux.parteReal;
+		imaginario= parteImaginaria * aux.parteImaginaria;
+		return new Numero_complexo(real,imaginario);			
+	}
+	public Numero_complexo divisao(Numero_complexo aux){
+		float real,imaginario;
+		real=parteReal/ aux.parteReal;
+		imaginario= parteImaginaria / aux.parteImaginaria;
+		return new Numero_complexo(real,imaginario);			
+	}
 	@Override
 	public String toString() {
 		return String.format("numero real : imaginario  (%.2f, %.2f)", getParteReal(),getParteImaginaria());

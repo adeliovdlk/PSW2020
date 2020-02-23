@@ -43,10 +43,17 @@ public class Principal_Num_complexo {
 	    Numero_complexo Numero_complexo3 = Numero_complexo1.adicao(Numero_complexo2);
 
 	    Numero_complexo Numero_complexo4 = Numero_complexo1.subtracao(Numero_complexo2);
+	    Numero_complexo Numero_complexo5 = Numero_complexo1.multiplicacao(Numero_complexo2);
+
+	    Numero_complexo Numero_complexo6 = Numero_complexo1.divisao(Numero_complexo2);
+
 
 	    System.out.println(Numero_complexo1 + " + " + Numero_complexo2 + " = " + Numero_complexo3);
 
 	    System.out.println(Numero_complexo1 + " - " + Numero_complexo2 + " = " + Numero_complexo4);
+	    System.out.println(Numero_complexo1 + " * " + Numero_complexo2 + " = " + Numero_complexo5);
+
+	    System.out.println(Numero_complexo1 + " / " + Numero_complexo2 + " = " + Numero_complexo6);
 		
 		
 		
